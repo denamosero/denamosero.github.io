@@ -15,7 +15,6 @@ body {
 .header-sticky-outterCont {
     display: flex;
     height: 70px;
-    border: 1px solid black;
     max-width: 1676px;
     margin: auto;
     padding: 0 15px;
