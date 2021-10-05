@@ -9,15 +9,12 @@ body {
 .top-banner {
     background-image: url("https://dkstatics-public.digikala.com/digikala-adservice-banners/e2eb491d815220aef8c1212ce30fd1765ad7ffcf_1632567581.gif");
     background-repeat: no-repeat;
+    background-color: #1111;
     background-size: cover;
     background-position: 50%;
     display: flex;
     height: 60px;
 }
-    .top-banner > a {
-        width: 100%;
-        height: 100%;
-    }
 /* Header */
 .header-sticky-outterCont {
     display: flex;
