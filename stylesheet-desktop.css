@@ -5,47 +5,48 @@
 }
 body {
     height: 9999px;
+
 }
-/* Top banner */
 .banner {
+    display: block;
+    background-color: #222;
     height: 60px;
-    display: flex;
-    background-color: #1117;
+    margin-bottom: 115px;
 }
-/* Header */
-.header {
+.header-outerCont {
+    align-items: center;
     display: flex;
+    flex-direction: column;
+    height: 115px;
+    width: 100%;
+    position: fixed;
+    top: 60px;
+    z-index: 1;
+}
+.header-innerCont {
     height: 70px;
-    justify-content: center;
+    width: 1676px;
+    background-color: #555;
 }
-    .header > div {
-        background-color: #555;
+.nav-outerCont {
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    width: 100%;
+    z-index: -1;
+    transition: 0.5s;
+}
+    .nav-innerCont {
         width: 1676px;
-        padding: 0 15px;
+        background-color: #777;
     }
+
     .sticky {
         position: fixed;
         top: 0;
         width: 100%;
-        z-index: 1;
     }
-.nav {
-    display: flex;
-    height: 45px;
-    justify-content: center;
-    position: fixed;
-    top: 130px;
-    width: 100%;
-    z-index: -1;
-    transition: 0.3s;
-}
-    .nav > div {
-        background-color: #1117;
-        width: 1676px;
-    }
-    .nav--hidden {
-        transform: translateY(-130px);
-    }
-    .nav--hidden2 {
-        transform: translateY(+70px);
+    .nav-outerCont--hidden {
+        transform: translateY(-70px);
+        transition: 0.5s;
     }
