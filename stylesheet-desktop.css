@@ -57,4 +57,43 @@
 .main-content {
     height: 9999px;
     margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
+
+    .swiper-main-outerCont {
+        margin-top: 17px;
+        display: flex;
+        height: 450px;
+        background-color: #9995;
+        justify-content: center;
+    }
+        .swiper-main-innerCont {
+            display: flex;
+            width: 1336px;
+            height: 450px;
+            background-color: #8885;
+            justify-content: space-between;
+            align-content: center;
+        }
+            .aside-oneThird-swiper-main-cont {
+                display: flex;
+                flex-direction: column;
+                width: 437px;
+                height: 450px;
+                background-color: #7775;
+                justify-content: space-between;
+            }
+                .aside-oneThird-swiper-adPlacement-cont {
+                    height: 218px;
+                    background-color: #6665;
+                    border-radius: 16px;
+                }
+            .swiper-twoThird-main-cont {
+                display: flex;
+                width: 883px;
+                height: 450px;
+                background-color: #6665;
+                border-radius: 16px;
+            }
