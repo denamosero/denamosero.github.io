@@ -6,7 +6,7 @@ body {
     height: 9999px;
 }
 /* Top banner */
-.top-banner {
+.banner {
     background-color: red;
     display: flex;
     height: 60px;

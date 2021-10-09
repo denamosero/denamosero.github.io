@@ -55,11 +55,12 @@
         transition: 0.5s;
     }
 .main-content {
+    width: 100%;
     margin-top: 115px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
     .slider {
@@ -158,9 +159,14 @@
     .articles {
         display: flex;
         flex-direction: column;
-        width: 1336px;
+        max-width: 1336px;
         background-color: #7775;
-        height: 9999px;
         margin-top: 30px;
+        justify-content: center;
+        align-items: center;
     }
+        .c-adPlacement {
+            background-color: #7775;
+            height: 100px;
+        }
     
