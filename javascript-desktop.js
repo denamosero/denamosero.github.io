@@ -3,7 +3,7 @@
     window.onscroll = function() {myFunction()};
 
     // Get the header
-    var header = document.querySelector(".header-main");
+    var header = document.querySelector(".header");
 
     // Get the offset position of the navbar
     var sticky = header.offsetTop;
@@ -20,14 +20,14 @@
 // // nav hide on scroll down and show on scroll up
 // // https://www.youtube.com/watch?v=Q_XZk5Vnujw&ab_channel=Fireship
 {
-    const nav = document.querySelector(".nav-outerCont");
+    const nav = document.querySelector(".nav");
     let lastScrollY = window.scrollY;
 
     window.addEventListener("scroll", () => {
         if (lastScrollY < window.scrollY) {
-            nav.classList.add("nav-outerCont--hidden");
+            nav.classList.add("nav--hidden");
         } else {
-            nav.classList.remove("nav-outerCont--hidden");
+            nav.classList.remove("nav--hidden");
         }
 
         lastScrollY = window.scrollY;
