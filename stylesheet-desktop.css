@@ -58,7 +58,8 @@
     margin-top: 115px;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
     .slider {
@@ -68,7 +69,7 @@
         background-color: #9995;
         justify-content: center;
     }
-        .slider > article {
+        .slider > div {
             display: flex;
             width: 1336px;
             height: 450px;
@@ -99,6 +100,7 @@
     .carousel-specials-incredible {
         display: flex;
         height: 521px;
+        width: 100%;
         background-color: #5555;
         margin-top: 16px;
         justify-content: center;
@@ -106,7 +108,7 @@
     }
         .carousel-specials-incredible > div {
             height: 451px;
-            width: 1334px;
+            width: 1336px;
             background-color: #5555;
             display: flex;
             justify-content: space-between;
@@ -131,3 +133,34 @@
                 width: 214px;
                 background-color: #5555;
             }
+    .banner-impression {
+        display: flex;
+        height: 240px;
+        background-color: #7775;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+        .banner-impression > aside {
+            display: flex;
+            width: 1336px;
+            height: 100%;
+            background-color: #7775;
+            justify-content: space-between;
+            align-items: center;
+        }
+            .banner-impression .adPlacements {
+                width: 319px;
+                height: 100%;
+                background-color: #7775;
+                border-radius: 16px;
+            }
+    .articles {
+        display: flex;
+        flex-direction: column;
+        width: 1336px;
+        background-color: #7775;
+        height: 9999px;
+        margin-top: 30px;
+    }
+    
